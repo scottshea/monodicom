@@ -1,0 +1,12 @@
+*.suo
+*.sdf
+*.opensdf
+*.user
+*.VisualState.xml
+obj/
+bin/
+Debug/
+Release/
+Distribute/
+/_ReSharper.DICOM
+TestResult.xml
