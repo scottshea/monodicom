@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2011-04-22T12:30:38</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Could not load file or assembly 'C:\Users\Scott Shea\monodicom\Dicom.Tests\bin\Debug\Dicom.Tests.dll' or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.</Message>
+      <StackTrace>
+Server stack trace: 
+   at System.Reflection.AssemblyName.nGetFileInformation(String s)
+   at System.Reflection.AssemblyName.GetAssemblyName(String assemblyFile)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   at NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   at NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   at NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.PrivateProcessMessage(RuntimeMethodHandle md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String testName, TestContext testContext)
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext)
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext)</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2011-04-22T12:31:54</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Could not load file or assembly 'C:\Users\Scott Shea\monodicom\Dicom.Tests\bin\Debug\Dicom.Tests.dll' or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.</Message>
+      <StackTrace>
+Server stack trace: 
+   at System.Reflection.AssemblyName.nGetFileInformation(String s)
+   at System.Reflection.AssemblyName.GetAssemblyName(String assemblyFile)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   at NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   at NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   at NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.PrivateProcessMessage(RuntimeMethodHandle md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String testName, TestContext testContext)
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext)
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext)</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2011-04-22T12:32:36</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Could not load file or assembly 'C:\Users\Scott Shea\monodicom\Dicom.Tests\bin\Debug\Dicom.Tests.dll' or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.</Message>
+      <StackTrace>
+Server stack trace: 
+   at System.Reflection.AssemblyName.nGetFileInformation(String s)
+   at System.Reflection.AssemblyName.GetAssemblyName(String assemblyFile)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   at NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   at NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   at NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.PrivateProcessMessage(RuntimeMethodHandle md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String testName, TestContext testContext)
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext)
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext)</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2011-04-22T12:32:53</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Could not load file or assembly 'C:\Users\Scott Shea\monodicom\Dicom.Tests\bin\Debug\Dicom.Tests.dll' or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.</Message>
+      <StackTrace>
+Server stack trace: 
+   at System.Reflection.AssemblyName.nGetFileInformation(String s)
+   at System.Reflection.AssemblyName.GetAssemblyName(String assemblyFile)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   at NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   at NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   at NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.PrivateProcessMessage(RuntimeMethodHandle md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String testName, TestContext testContext)
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext)
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext)</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2011-04-22T12:34:36</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Could not load file or assembly 'C:\Users\Scott Shea\monodicom\Dicom.Tests\bin\Debug\Dicom.Tests.dll' or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.</Message>
+      <StackTrace>
+Server stack trace: 
+   at System.Reflection.AssemblyName.nGetFileInformation(String s)
+   at System.Reflection.AssemblyName.GetAssemblyName(String assemblyFile)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   at NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   at NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   at NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.PrivateProcessMessage(RuntimeMethodHandle md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String testName, TestContext testContext)
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext)
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext)</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2011-04-22T12:35:03</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Could not load file or assembly 'C:\Users\Scott Shea\monodicom\Dicom.Tests\bin\Debug\Dicom.Tests.dll' or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.</Message>
+      <StackTrace>
+Server stack trace: 
+   at System.Reflection.AssemblyName.nGetFileInformation(String s)
+   at System.Reflection.AssemblyName.GetAssemblyName(String assemblyFile)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   at NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   at NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   at NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.PrivateProcessMessage(RuntimeMethodHandle md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String testName, TestContext testContext)
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext)
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext)</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2011-04-22T12:38:50</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Could not load file or assembly 'C:\Users\Scott Shea\monodicom\Dicom.Tests\bin\Debug\Dicom.Tests.dll' or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.</Message>
+      <StackTrace>
+Server stack trace: 
+   at System.Reflection.AssemblyName.nGetFileInformation(String s)
+   at System.Reflection.AssemblyName.GetAssemblyName(String assemblyFile)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   at NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   at NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   at NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.PrivateProcessMessage(RuntimeMethodHandle md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String testName, TestContext testContext)
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext)
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext)</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2011-04-22T12:43:55</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Could not load file or assembly 'C:\Users\Scott Shea\monodicom\Dicom.Tests\bin\Debug\Dicom.Tests.dll' or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.</Message>
+      <StackTrace>
+Server stack trace: 
+   at System.Reflection.AssemblyName.nGetFileInformation(String s)
+   at System.Reflection.AssemblyName.GetAssemblyName(String assemblyFile)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Load(String path)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, Boolean autoSuites)
+   at NUnit.Core.Builders.TestAssemblyBuilder.Build(String assemblyName, String testName, Boolean autoSuites)
+   at NUnit.Core.TestSuiteBuilder.BuildSingleAssembly(TestPackage package)
+   at NUnit.Core.TestSuiteBuilder.Build(TestPackage package)
+   at NUnit.Core.SimpleTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.ProxyTestRunner.Load(TestPackage package)
+   at NUnit.Core.RemoteTestRunner.Load(TestPackage package)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.PrivateProcessMessage(RuntimeMethodHandle md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String testName, TestContext testContext)
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext)
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext)</StackTrace>
+    </UnitTestResult>
+  </Results>
+  <Tests />
+</TestRecord>

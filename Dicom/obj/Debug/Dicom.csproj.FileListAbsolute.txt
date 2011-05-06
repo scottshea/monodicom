@@ -1,0 +1,11 @@
+C:\Users\Scott Shea\monodicom\Dicom\bin\Debug\lgpl-2.1.txt
+C:\Users\Scott Shea\monodicom\Dicom\bin\Debug\license.txt
+C:\Users\Scott Shea\monodicom\Dicom\bin\Debug\dicom.dic
+C:\Users\Scott Shea\monodicom\Dicom\bin\Debug\dicom.pem
+C:\Users\Scott Shea\monodicom\Dicom\bin\Debug\private.dic
+C:\Users\Scott Shea\monodicom\Dicom\bin\Debug\Dicom.dll
+C:\Users\Scott Shea\monodicom\Dicom\bin\Debug\Dicom.pdb
+C:\Users\Scott Shea\monodicom\Dicom\bin\Debug\NLog.dll
+C:\Users\Scott Shea\monodicom\Dicom\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Scott Shea\monodicom\Dicom\obj\Debug\Dicom.dll
+C:\Users\Scott Shea\monodicom\Dicom\obj\Debug\Dicom.pdb

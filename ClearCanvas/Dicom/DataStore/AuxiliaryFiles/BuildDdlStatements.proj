@@ -1,0 +1,26 @@
+<Project DefaultTargets="BuildAll" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<ProjectRoot>$(MSBuildProjectDirectory)\..\..\..</ProjectRoot>
+		<OutputDir>$(MSBuildProjectDirectory)</OutputDir>
+	</PropertyGroup>
+	<ItemGroup>
+		<DependentAuxiliaryFiles Include="$(ProjectRoot)\ReferencedAssemblies\log4net.dll" />
+		<DependentAuxiliaryFiles Include="$(ProjectRoot)\ReferencedAssemblies\NHibernate1.2\NHibernate.dll" />
+		<DependentAuxiliaryFiles Include="$(ProjectRoot)\ReferencedAssemblies\NHibernate1.2\Iesi.Collections.dll" />
+		<DependentAuxiliaryFiles Include="$(ProjectRoot)\Common\bin\$(Configuration)\ClearCanvas.Common.dll" />
+		<DependentAuxiliaryFiles Include="$(ProjectRoot)\Dicom\bin\$(Configuration)\ClearCanvas.Dicom.dll" />
+		<DependentAuxiliaryFiles Include="$(ProjectRoot)\Dicom\DataStore\bin\$(Configuration)\ClearCanvas.Dicom.DataStore.dll" />
+		<DependentAuxiliaryFiles Include="$(ProjectRoot)\Utilities\Hibernate2DdlGenerator\bin\$(Configuration)\hbm2ddl.exe" />
+		<InputFiles Include="ClearCanvas.Dicom.DataStore.dll" />
+		<OutputFiles Include="CreateTables.clearcanvas.dicom.datastore.ddl" />
+		<OutputFiles Include="DropTables.clearcanvas.dicom.datastore.ddl" />
+	</ItemGroup> 
+	<Target Name="Preparation" Inputs="@(DependentAuxiliaryFiles)" Outputs="@(DependentAuxiliaryFiles -> '%(Filename)%(Extension)')">
+		<Copy SourceFiles="@(DependentAuxiliaryFiles)" DestinationFolder="$(OutputDir)" />
+	</Target>
+	<Target Name="CreateDDL" DependsOnTargets="Preparation" Inputs="@(InputFiles)" Outputs="@(OutputFiles)">
+		<Exec Command="hbm2ddl ClearCanvas.Dicom.DataStore" />
+	</Target>
+<Target Name="BuildAll" DependsOnTargets="Preparation;CreateDDL" />
+</Project>

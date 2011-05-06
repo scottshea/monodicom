@@ -1,0 +1,101 @@
+﻿#region License
+
+// Copyright (c) 2010, ClearCanvas Inc.
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without modification, 
+// are permitted provided that the following conditions are met:
+//
+//    * Redistributions of source code must retain the above copyright notice, 
+//      this list of conditions and the following disclaimer.
+//    * Redistributions in binary form must reproduce the above copyright notice, 
+//      this list of conditions and the following disclaimer in the documentation 
+//      and/or other materials provided with the distribution.
+//    * Neither the name of ClearCanvas Inc. nor the names of its contributors 
+//      may be used to endorse or promote products derived from this software without 
+//      specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+// AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+// THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+// PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+// CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
+// OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE 
+// GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+// HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+// STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN 
+// ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY 
+// OF SUCH DAMAGE.
+
+#endregion
+
+using System;
+
+namespace ClearCanvas.Common
+{
+    /// <summary>
+    /// Attribute used to mark a class as being an extension of the specified extension point class.
+    /// </summary>
+    /// <remarks>
+    /// Use this attribute to mark a class as being an extension of the specified extension point,
+    /// specified by the <see cref="Type" /> of the extension point class.
+    /// </remarks>
+    [AttributeUsage(AttributeTargets.Class, AllowMultiple=true)]
+    public class ExtensionOfAttribute: Attribute
+    {
+        private readonly Type _extensionPointClass;
+        private string _name;
+        private string _description;
+    	private bool _enabled = true;	// extensions are enabled by default
+
+        /// <summary>
+        /// Attribute constructor.
+        /// </summary>
+        /// <param name="extensionPointClass">The type of the extension point class which the target class extends.</param>
+        public ExtensionOfAttribute(Type extensionPointClass)
+        {
+            _extensionPointClass = extensionPointClass;
+        }
+
+        /// <summary>
+        /// The class that defines the extension point which this extension extends.
+        /// </summary>
+        public Type ExtensionPointClass
+        {
+            get { return _extensionPointClass; }
+        }
+
+        /// <summary>
+        /// A friendly name for the extension.
+        /// </summary>
+        /// <remarks>
+		/// This is optional and may be supplied as a named parameter.
+		/// </remarks>
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+
+        /// <summary>
+        /// A friendly description for the extension.
+        /// </summary>
+        /// <remarks>
+		/// This is optional and may be supplied as a named parameter.
+		/// </remarks>
+        public string Description
+        {
+            get { return _description; }
+            set { _description = value; }
+        }
+
+		/// <summary>
+		/// The default enablement of the extension.
+		/// </summary>
+    	public bool Enabled
+    	{
+			get { return _enabled; }
+			set { _enabled = value; }
+    	}
+    }
+}

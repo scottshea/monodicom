@@ -1,0 +1,32 @@
+K 16
+bugtraq:logregex
+V 183
+(([Rr]equirement|[Rr]equirements):(\s*)[R#](\d+))((\s*),(\s*)R(\d+))*|(([Bb]ug|[Bb]ugs):(\s*)#(\d+))((\s*),(\s*)#(\d+))*|(([Tt]icket|[Tt]ickets):(\s*)#(\d+))((\s*),(\s*)#(\d+))*
+(\d+)
+K 10
+svn:ignore
+V 68
+bin
+obj
+Debug
+Release
+*.user
+*.aps
+*.eto
+[Bb]in
+[Dd]ebug
+[Rr]elease
+
+K 15
+tsvn:logminsize
+V 3
+100
+K 16
+tsvn:logtemplate
+V 134
+Ticket(s): #xxxx - Your_Commit_Title_Here
+
+Schema/Configuration Changes: N/A
+
+Your_Other_Notes_Here__Ctrl_A_Delete_If_not_final_commit
+END

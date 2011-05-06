@@ -1,0 +1,16 @@
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\lgpl-2.1.txt
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\license.txt
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\dicom.dic
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\dicom.pem
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\private.dic
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\Monodicom.Utilities.dll
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\Monodicom.Utilities.pdb
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\Dicom.dll
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\log4net.dll
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\NLog.dll
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\Dicom.pdb
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\log4net.pdb
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\log4net.xml
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\obj\Debug\Monodicom.Utilities.dll
+C:\Users\Scott Shea\monodicom\Dicom.Anonymize\obj\Debug\Monodicom.Utilities.pdb

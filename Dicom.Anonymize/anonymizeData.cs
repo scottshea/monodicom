@@ -6,18 +6,16 @@ namespace Dicom.Anonymize
 {
 	public class anonymizeData
 	{		
-        Random randomID = new Random();
-		
 		#region privates
-		private DicomUID _newStudyId = DicomUID.Generate();
-		private DicomUID _newSessionId; //TODO: Is there a way to default this?
-		private String _newStudyDescription = "Study Anonymized at " + DateTime.Now.ToShortTimeString();
-		private String _newStudyDate = getDateAsString();
-		private String _newPatientId = getPatientId();
-		private String _newPatientName = patientId.get + "^Anonymous";
-		private String _newPatientDOB = getDateAsString();
-		private String _newPhysicianName = "Anonymous^S^Dr.";
-		private String _newAccessionNumber = getAccessionNumber();
+		private static DicomUID _newStudyId = DicomUID.Generate();
+		private static DicomUID _newSessionId; //TODO: Is there a way to default this?
+		private static String _newStudyDescription = "Study Anonymized at " + DateTime.Now.ToShortTimeString();
+		private static String _newStudyDate = getDateAsString();
+		private static String _newPatientId = getPatientId();
+		private static String _newPatientName = _newPatientId + "^Anonymous";
+		private static String _newPatientDOB = getDateAsString();
+		private static String _newPhysicianName = "Anonymous^S^Dr.";
+		private static String _newAccessionNumber = getAccessionNumber();
 		
 		#endregion
 		
@@ -30,7 +28,7 @@ namespace Dicom.Anonymize
 		public DicomUID sessionId
 		{
 			get {return _newSessionId;}
-			set {_newSessionId = DicomUID.Generate(_newStudyId, value);}
+			//set {_newSessionId = DicomUID.Generate(_newStudyId, value);}
 		}
 		
 		public String studyDescription
@@ -74,13 +72,19 @@ namespace Dicom.Anonymize
 			get {return _newAccessionNumber;}
 			set {_newAccessionNumber = value;}
 		}
-		
 		#endregion
+		
+		#region public methods
+		public void setSesionId(int studyNumber) //doing this in place of a set on the property; cannot take an int on the set since it is expecting a DicomUID
+		{
+			_newSessionId = DicomUID.Generate(_newStudyId, studyNumber);
+		}
+		#endregion	
 
 
 		
 		#region private methods
-        private string getDateAsString() //returns date string in the yyyymmdd format
+        private static string getDateAsString() //returns date string in the yyyymmdd format
         {
             string newMonth;
             string newDay;
@@ -107,19 +111,21 @@ namespace Dicom.Anonymize
             return newDateString;
         }
 		
-        private String getPatientID()
+        private static String getPatientId()
         {
             //generate random patient id
-            String randPatientId = "AI";
+            Random randomID = new Random();
+			String randPatientId = "AI";
             for (int ctr = 0; ctr <= 5; ctr++)
                 randPatientId = randPatientId + randomID.Next(10).ToString();
             String newPatientId = randPatientId;
             return newPatientId;
         }
 		
-		private String getAccessionNumber()
+		private static String getAccessionNumber()
         {
             //generate accessionNumber
+			Random randomID = new Random();
             String randAccessionNum = "AI";
             for (int ctr = 0; ctr <= 5; ctr++)
                 randAccessionNum = randAccessionNum + randomID.Next(10).ToString();

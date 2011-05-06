@@ -1,24 +1,27 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Dicom.Anonymize\anonymizeData.cs">
-    <Files>
-      <File FileName="Dicom.Anonymize\anonymizeData.cs" Line="12" Column="53" />
-      <File FileName="Dicom.Anonymize\datasetAnonymization.cs" Line="18" Column="102" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Dicom" expanded="True" />
-          <Node name="Dicom.Anonymize" expanded="True" selected="True" />
-          <Node name="Dicom.Linq" expanded="True">
-            <Node name="Data" expanded="True" />
+          <Node name="Dicom.Anonymize" expanded="True" />
+          <Node name="Dicom.FileInfoViewer" expanded="True">
+            <Node name="MainForm.cs" expanded="True" selected="True" />
           </Node>
         </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Scott Shea\monodicom\Dicom.Tests\Anonymize\AnonymizeTests.cs" line="13" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

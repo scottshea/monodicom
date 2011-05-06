@@ -1,0 +1,6 @@
+C:\Users\Scott Shea\monodicom\Dicom.FileInfoViewer\DicomFileViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Scott Shea\monodicom\Dicom.FileInfoViewer\DicomFileViewer\obj\Debug\Monodicom.DicomInfoViewer.mainForm.resources
+C:\Users\Scott Shea\monodicom\Dicom.FileInfoViewer\DicomFileViewer\obj\Debug\DicomInfoViewer.Properties.Resources.resources
+C:\Users\Scott Shea\monodicom\Dicom.FileInfoViewer\DicomFileViewer\obj\Debug\Monodicom.DicomInfoViewer.UpdateForm.resources
+C:\Users\Scott Shea\monodicom\Dicom.FileInfoViewer\DicomFileViewer\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Scott Shea\monodicom\Dicom.FileInfoViewer\DicomFileViewer\obj\Debug\GenerateResource.write.1.tlog

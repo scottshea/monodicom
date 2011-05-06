@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="08dcaa95-ed48-4afc-add5-1741412b0b66" name="Scott Shea@DARMEN 2011-04-30 19:13:24" runUser="Darmen\Scott Shea" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1f029568-2c19-487f-a998-56dd1ea03a81">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Scott Shea_DARMEN 2011-04-30 19_13_24">
+      <DeploymentItem filename="C:\Users\Scott Shea\monodicom\log4net\build\bin\net\1.0\debug\log4net.dll" />
+      <DeploymentItem filename="C:\Users\Scott Shea\monodicom\Dicom.Anonymize\bin\Debug\Monodicom.Utilities.dll" />
+      <DeploymentItem filename="C:\Users\Scott Shea\monodicom\Dicom\bin\Debug\Dicom.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-30T19:13:24.4294844-07:00" queuing="2011-04-30T19:13:32.2019289-07:00" start="2011-04-30T19:13:32.6419541-07:00" finish="2011-04-30T19:13:34.3450515-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="UpdateMetadataTest" storage="c:\users\scott shea\monodicom\monodicom.tests\bin\debug\monodicom.tests.dll" id="9ae08607-2e82-0065-248c-a9a6bd9684df">
+      <Execution id="6c7a8d8d-e754-4c83-b20e-143f1389ad7b" />
+      <TestMethod codeBase="C:/Users/Scott Shea/monodicom/Monodicom.Tests/bin/Debug/Monodicom.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Monodicom.Tests.UpdateDataTest, Monodicom.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateMetadataTest" />
+    </UnitTest>
+    <UnitTest name="DicomFileNameTest" storage="c:\users\scott shea\monodicom\monodicom.tests\bin\debug\monodicom.tests.dll" id="924c87db-2a00-3cf6-0fb9-805c5dd8f125">
+      <Execution id="1848c7ef-55b4-43e5-bac1-571c267c59b8" />
+      <TestMethod codeBase="C:/Users/Scott Shea/monodicom/Monodicom.Tests/bin/Debug/Monodicom.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Monodicom.Tests.UpdateDataTest, Monodicom.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DicomFileNameTest" />
+    </UnitTest>
+    <UnitTest name="UpdateDatasetTest" storage="c:\users\scott shea\monodicom\monodicom.tests\bin\debug\monodicom.tests.dll" id="5837790c-c716-6ba8-6d81-8f2657c7086a">
+      <Execution id="66fcfb58-b48a-4625-bfc2-250ea57badfc" />
+      <TestMethod codeBase="C:/Users/Scott Shea/monodicom/Monodicom.Tests/bin/Debug/Monodicom.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Monodicom.Tests.UpdateDataTest, Monodicom.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateDatasetTest" />
+    </UnitTest>
+    <UnitTest name="UpdateDataConstructorTest" storage="c:\users\scott shea\monodicom\monodicom.tests\bin\debug\monodicom.tests.dll" id="5583ee73-6762-8733-b584-b5c31776b963">
+      <Execution id="0ad590c2-753f-406e-8b06-f0d65456c436" />
+      <TestMethod codeBase="C:/Users/Scott Shea/monodicom/Monodicom.Tests/bin/Debug/Monodicom.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Monodicom.Tests.UpdateDataTest, Monodicom.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateDataConstructorTest" />
+    </UnitTest>
+    <UnitTest name="DicomFilePathTest" storage="c:\users\scott shea\monodicom\monodicom.tests\bin\debug\monodicom.tests.dll" id="8249c323-7cea-402f-773b-17e2517ba79c">
+      <Execution id="757d2191-049d-45e2-a4b1-5d485ca08633" />
+      <TestMethod codeBase="C:/Users/Scott Shea/monodicom/Monodicom.Tests/bin/Debug/Monodicom.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Monodicom.Tests.UpdateDataTest, Monodicom.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DicomFilePathTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5583ee73-6762-8733-b584-b5c31776b963" executionId="0ad590c2-753f-406e-8b06-f0d65456c436" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5837790c-c716-6ba8-6d81-8f2657c7086a" executionId="66fcfb58-b48a-4625-bfc2-250ea57badfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8249c323-7cea-402f-773b-17e2517ba79c" executionId="757d2191-049d-45e2-a4b1-5d485ca08633" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="924c87db-2a00-3cf6-0fb9-805c5dd8f125" executionId="1848c7ef-55b4-43e5-bac1-571c267c59b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ae08607-2e82-0065-248c-a9a6bd9684df" executionId="6c7a8d8d-e754-4c83-b20e-143f1389ad7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0ad590c2-753f-406e-8b06-f0d65456c436" testId="5583ee73-6762-8733-b584-b5c31776b963" testName="UpdateDataConstructorTest" computerName="DARMEN" duration="00:00:00.0994445" startTime="2011-04-30T19:13:32.7349594-07:00" endTime="2011-04-30T19:13:34.2040434-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ad590c2-753f-406e-8b06-f0d65456c436">
+    </UnitTestResult>
+    <UnitTestResult executionId="66fcfb58-b48a-4625-bfc2-250ea57badfc" testId="5837790c-c716-6ba8-6d81-8f2657c7086a" testName="UpdateDatasetTest" computerName="DARMEN" duration="00:00:00.0230272" startTime="2011-04-30T19:13:34.2070436-07:00" endTime="2011-04-30T19:13:34.2400455-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66fcfb58-b48a-4625-bfc2-250ea57badfc">
+    </UnitTestResult>
+    <UnitTestResult executionId="757d2191-049d-45e2-a4b1-5d485ca08633" testId="8249c323-7cea-402f-773b-17e2517ba79c" testName="DicomFilePathTest" computerName="DARMEN" duration="00:00:00.0011595" startTime="2011-04-30T19:13:34.2430457-07:00" endTime="2011-04-30T19:13:34.2540463-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="757d2191-049d-45e2-a4b1-5d485ca08633">
+    </UnitTestResult>
+    <UnitTestResult executionId="1848c7ef-55b4-43e5-bac1-571c267c59b8" testId="924c87db-2a00-3cf6-0fb9-805c5dd8f125" testName="DicomFileNameTest" computerName="DARMEN" duration="00:00:00.0009805" startTime="2011-04-30T19:13:34.2570465-07:00" endTime="2011-04-30T19:13:34.2680471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1848c7ef-55b4-43e5-bac1-571c267c59b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c7a8d8d-e754-4c83-b20e-143f1389ad7b" testId="9ae08607-2e82-0065-248c-a9a6bd9684df" testName="UpdateMetadataTest" computerName="DARMEN" duration="00:00:00.0014444" startTime="2011-04-30T19:13:34.2710473-07:00" endTime="2011-04-30T19:13:34.2860481-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c7a8d8d-e754-4c83-b20e-143f1389ad7b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

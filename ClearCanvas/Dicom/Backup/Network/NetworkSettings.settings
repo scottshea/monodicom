@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ClearCanvas.Dicom.Network" GeneratedClassName="NetworkSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ReadTimeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="WriteTimeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="ConnectTimeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="ReceiveBufferSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">118341</Value>
+    </Setting>
+    <Setting Name="SendBufferSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">118341</Value>
+    </Setting>
+    <Setting Name="LocalMaxPduLength" Type="System.UInt32" Scope="Application">
+      <Value Profile="(Default)">116794</Value>
+    </Setting>
+    <Setting Name="RemoteMaxPduLength" Type="System.UInt32" Scope="Application">
+      <Value Profile="(Default)">116794</Value>
+    </Setting>
+    <Setting Name="DisableNagle" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CombineCommandDataPdu" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

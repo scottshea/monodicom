@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ClearCanvas.Dicom.DataStore" namespace="ClearCanvas.Dicom.DataStore">
+  <class name="Study" table="Study_" lazy="false">
+    <id name="StudyOid" column="StudyOid_" type="Guid">
+      <generator class="guid.comb">
+      </generator>
+    </id>
+    <property name="ProcedureCodeSequenceCodingSchemeDesignator" column="ProcedureCodeSequenceCodingSchemeDesignator_" type="string" length="16" />
+    <property name="StudyId" column="StudyId_" type="string" length="16" />
+    <property name="StudyTimeRaw" column="StudyTimeRaw_" type="string" length="16" />
+    <property name="StudyDate" column="StudyDate_" type="DateTime" />
+    <property name="StudyDateRaw" column="StudyDateRaw_" type="string" length="26" />
+    <property name="AccessionNumber" column="AccessionNumber_" type="string" length="16" />
+    <property name="StudyInstanceUid" column="StudyInstanceUid_" type="string" length="64" not-null="true" unique="true" />	
+    <property name="StudyDescription" column="StudyDescription_" type="string" length="64" />
+    <property name="ModalitiesInStudy" column="ModalitiesInStudy_" type="string" length="256" /> <!-- arbitrary length chosen -->
+    <property name="NumberOfStudyRelatedSeries" column="NumberOfStudyRelatedSeries_" type="Int32" />
+    <property name="NumberOfStudyRelatedInstances" column="NumberOfStudyRelatedInstances_" type="Int32" />
+    <property name="SpecificCharacterSet" column="SpecificCharacterSet_" type="string" length="64" />
+    <property name="ProcedureCodeSequenceCodeValue" column="ProcedureCodeSequenceCodeValue_" type="string" length="16" />
+    <property name="StoreTime" column="StoreTime_" type="DateTime" />
+    <component name="StudyXmlUri" class="DicomUri">
+      <property name="InternalUri" column="StudyXmlUri_" type="string" length="1024" />
+    </component>
+    <property name="PatientsNameRaw" column="PatientsNameRaw_" type="string" length="256"/>
+    <component name="PatientsName" class="ClearCanvas.Dicom.Iod.PersonName, ClearCanvas.Dicom"> <!-- class attribute optional -->
+      <property name="InternalPersonName" column="PatientsName_" type="string" length="256" />
+    </component>
+    <property name="ReferringPhysiciansNameRaw" column="ReferringPhysiciansNameRaw_" type="string" length="256"/>
+    <component name="ReferringPhysiciansName" class="ClearCanvas.Dicom.Iod.PersonName, ClearCanvas.Dicom">
+      <!-- class attribute optional -->
+      <property name="InternalPersonName" column="ReferringPhysiciansName_" type="string" length="256" />
+    </component>
+    <property name="PatientId" column="PatientId_" type="string" length="64"/>
+    <property name="PatientsSex" column="PatientsSex_" type="string" length="16" />
+    <property name="PatientsBirthDateRaw" column="PatientsBirthDateRaw_" type="string" length="16" />
+  </class>
+</hibernate-mapping>

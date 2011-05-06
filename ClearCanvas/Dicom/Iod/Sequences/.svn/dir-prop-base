@@ -1,0 +1,13 @@
+K 15
+tsvn:logminsize
+V 3
+100
+K 16
+tsvn:logtemplate
+V 134
+Ticket(s): #xxxx - Your_Commit_Title_Here
+
+Schema/Configuration Changes: N/A
+
+Your_Other_Notes_Here__Ctrl_A_Delete_If_not_final_commit
+END

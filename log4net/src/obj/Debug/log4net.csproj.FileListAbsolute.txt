@@ -1,0 +1,12 @@
+C:\Users\Scott Shea\Downloads\incubating-log4net-1.2.10\log4net-1.2.10\build\bin\net\1.0\debug\log4net.dll
+C:\Users\Scott Shea\Downloads\incubating-log4net-1.2.10\log4net-1.2.10\build\bin\net\1.0\debug\log4net.pdb
+C:\Users\Scott Shea\Downloads\incubating-log4net-1.2.10\log4net-1.2.10\build\bin\net\1.0\debug\log4net.xml
+C:\Users\Scott Shea\Downloads\incubating-log4net-1.2.10\log4net-1.2.10\src\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Scott Shea\Downloads\incubating-log4net-1.2.10\log4net-1.2.10\src\obj\Debug\log4net.dll
+C:\Users\Scott Shea\Downloads\incubating-log4net-1.2.10\log4net-1.2.10\src\obj\Debug\log4net.pdb
+C:\Users\Scott Shea\monodicom\log4net\build\bin\net\1.0\debug\log4net.dll
+C:\Users\Scott Shea\monodicom\log4net\build\bin\net\1.0\debug\log4net.pdb
+C:\Users\Scott Shea\monodicom\log4net\build\bin\net\1.0\debug\log4net.xml
+C:\Users\Scott Shea\monodicom\log4net\src\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Scott Shea\monodicom\log4net\src\obj\Debug\log4net.dll
+C:\Users\Scott Shea\monodicom\log4net\src\obj\Debug\log4net.pdb
